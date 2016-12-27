@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Smart Health</title>
+	<meta name="description" content="smarthealth">
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+
+<body>
+	
+	<nav class= "navbar navbar-inverse" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class= "navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				<!-- a href="" class="navbar-brand">Pavwiki</a-->
+				<div style="padding-top: 15px;">
+				<img class="img-responsive center"src="1.jpg">
+				</div>
+			</div>
+			
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			<!-- a href="#loginbtn" class="btn btn-default navbar-btn navbar-right">LOGIN</a-->
+			
+				<ul class="nav navbar-nav">
+					
+					<li><a href ="#aboutus">ABOUT US</a>
+					<li><a href ="#contactus">CONTACT US</a>
+					<li><a href ="#teammembers">TEAM</a>
+					<li><a href ="Register.jsp">REGISTER</a>
+				
+				</ul>
+				<div class="nav navbar-nav navbar-right">
+
+					<form action="LoginServlet" method="POST" class="form-inline">
+						<div class="form-group">
+							 <input	type="email" class="form-control" name="email" placeholder="EMAILID">
+						</div>
+						<div class="form-group">
+							 <input	type="password" class="form-control" name="password" placeholder="PASSWORD">
+						</div>
+						
+						<button type="submit" class="btn btn-default navbar-btn ">LOGIN <span class="glyphicon glyphicon-log-in"></span></button>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	
+
+	<div class="jumbotron">
+	 	<div class="container text-center">
+	 		<h1>SMART HEALTH</h1>
+	 		
+	 		<!-- div class="btn-group">
+	 			<a href="" class="btn btn-lg btn-warning">UPDATE PROFILE</a>
+	 			
+	 			<a href="" class="btn btn-lg btn-warning">DELETE ACCOUNT</a>
+	 		</div-->
+	 	</div>
+	</div>
+	
+	<div class="container">
+		<section>
+			<div class="carousel slide center" id="screenshot-carousel" data-ride="carousel">
+				<ol class= carousel-indicators>
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1" ></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2" ></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3" ></li>
+								
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img  class="img-responsive center-block" src="images3.jpg" alt="IMAGE">
+					</div>
+					
+					<div class="item">
+						<img class="img-responsive center-block" src="images1.jpg" alt="IMAGE">
+					</div>
+					
+					<div class="item">
+						<img class="img-responsive center-block" src="images0.jpg" alt="IMAGE">
+					</div>
+					
+					<div class="item ">
+						<img class="img-responsive center-block" src="images2.jpg" alt="IMAGE">
+					</div>
+				</div>
+			
+			</div>
+		</section>
+		
+	
+	</div>
+	
+	<div class="container text-center">
+		<section>
+			<div class="page-header" id="aboutus">
+				<h2>ABOUT US</h2>
+			
+			</div>
+			
+			<div class="row">
+				
+					<blockquote>
+						<p>Smart Health provides industry-leading Work Health Services to a variety of people.
+						  We are dedicated to combining our professional expertise & experience
+						  with cutting-edge technology to provide our clients with unique
+						 and outcome-oriented Work Health.</p>
+						<footer>Pavas Handa</footer>
+					</blockquote>		
+				
+			</div>
+		</section>
+		
+	
+	</div>
+	
+
+	<div class="container text-center">
+		<section>
+			<div class="page-header" id="teammembers">
+				<h2>TEAM</h2>
+				<hr>
+				<div class="row">
+					<div class="col-sm-8">
+						<h3>ANMOLPREET KAUR</h3>
+						<p>Work hard for what you want because it won't come to you without a fight. 
+						You have to be strong and courageous and know that you can do anything you put
+						 your mind to. If somebody puts you down or criticizes you, just keep on believing 
+						 in yourself and turn it into something positive. </p>
+					</div>
+					<div class="col-lg-4">
+						<img src="anmol.jpg" alt="IMAGE">
+					</div>
+					<hr>
+					<div class="col-sm-8">
+						<h3>PAVAS HANDA</h3>
+						<p>I truly believe that everything that we do and everyone that we meet is put in 
+						our path for a purpose. There are no accidents; we're all teachers - if we're willing
+						 to pay attention to the lessons we learn, trust our positive instincts and not be
+						  afraid to take risks or wait for some miracle to come knocking at our door.  </p>
+					</div>
+					<div class="col-lg-4">
+						<img src="Pavas.png" alt="IMAGE">
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+	
+	<div class="container text-center ">
+		<section>
+			<div class="page-header" id="contactus">
+				<h2>CONTACT US</h2>
+			
+			</div>
+			
+			<div class="row">
+				<blockquote>
+					<p>MOBILE NUMBER:<br></br>9205076454 , 9927291310</p>
+					<p>EMAIL ID:<br></br>pavas16040@iiitd.ac.in<br></br>anmol16009@iiitd.ac.in</p>
+				</blockquote>
+			</div>
+		</section>
+		
+	
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
